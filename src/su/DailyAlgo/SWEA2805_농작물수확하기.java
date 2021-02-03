@@ -1,4 +1,5 @@
-package src.su.DailyAlgo;
+package su.DailyAlgo;
+
 
 public class SWEA2805_농작물수확하기 {
 
