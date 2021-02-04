@@ -11,7 +11,7 @@ public class SWEA_1218_괄호짝짓기 {
 //	push() : Stack에 데이터를 삽입
 //	isEmpty() : Stack 비어있는지 확인
 //	empty() : Stack을 초기화
-//	size() : Stack Size 반환
+ 
 	
 
 	public static void main(String[] ags) {
