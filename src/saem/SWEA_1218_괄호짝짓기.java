@@ -12,16 +12,14 @@ public class SWEA_1218_괄호짝짓기 {
  
 
  
-	
-
 	public static void main(String[] ags) {
 		Scanner sc = new Scanner(System.in);
 
-		for (int testcase = 1; testcase <= 10; testcase++) {
+		for (int testcase = 10; testcase <= 10; testcase++) {
 			int tc = sc.nextInt();
 			String a = sc.next();
 
-			Stack<Character> stack = new Stack(); // 구성 잘 봐두기
+			Stack<Character> stack = new Stack();  
 			int r = 0;
 			for (int i = 0; i < a.length(); i++) {
 				char c = a.charAt(i);
@@ -39,7 +37,7 @@ public class SWEA_1218_괄호짝짓기 {
 
 				}
 			}
-			if (stack.isEmpty())
+			if (stack.isEmpty()) //Stack 비어있는지 확인
 				r = 1;
 			else
 				r = 0;
