@@ -1,7 +1,7 @@
 package saem;
 import java.util.Scanner;
 
-public class Solution_SWEA_2001_파리퇴치 {
+public class SWEA_2001_파리퇴치 {
 
 	// 테케
 	// N 입력 -> 배열

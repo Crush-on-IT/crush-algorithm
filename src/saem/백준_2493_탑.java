@@ -2,7 +2,7 @@ package saem;
 
 import java.util.Scanner; 
 import java.util.Stack; 
-public class Baekjoon_2493_탑{ 
+public class 백준_2493_탑{ 
     
 	
 //	peek() : Stack 최상단에 있는 top data 반환(Stack에서 꺼내진 않음)
