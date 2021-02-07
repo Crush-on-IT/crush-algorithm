@@ -41,6 +41,7 @@ public class BJ1244_스위치켜고끄기 {
 				System.out.println();
 		}
 	}
+	
 	private static void changeByWoman(int idx) {
 		arr[idx] = arr[idx]==1?0:1;
 		int tmp = 1;
@@ -51,6 +52,7 @@ public class BJ1244_스위치켜고끄기 {
 			tmp++;
 		}
 	}
+	
 	private static void changeByMan(int idx) {
 		int input= idx;
 		while(idx<=N) {

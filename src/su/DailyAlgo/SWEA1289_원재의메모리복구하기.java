@@ -19,7 +19,7 @@ public class SWEA1289_원재의메모리복구하기 {
 			int bit = 0;
 			
 			for (int i = 0; i < input.length; i++) {
-				int cur = input[i]-'0';
+				int cur = input[i]-'1';
 				
 				if(cur==bit)	continue;
 				
