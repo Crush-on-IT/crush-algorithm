@@ -31,7 +31,7 @@ public class SWEA_1218_괄호짝짓기 {
 					stack.pop();
 				else if (c == '>' && stack.peek() == '<')
 					stack.pop();
-
+                       
 				else {
 					stack.push(c);
 

@@ -1,4 +1,4 @@
-package src.su.DailyAlgo;
+package su.DailyAlgo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
